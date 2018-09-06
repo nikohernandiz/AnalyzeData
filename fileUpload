@@ -7,6 +7,7 @@
 <p id="demo"></p>
     
 <script>
+  window.alert(" Welcome to the CRM Program, remember to only use this program with browsers that have HTML5 and only submit Excel type files.");
 function setTable() {  
      var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.xlsx|.xls)$/;  
      /*Checks whether the file is a valid excel file*/  
@@ -54,11 +55,11 @@ function setTable() {
              }  
          }  
          else {  
-             alert("Sorry! Your browser does not support HTML5!");  
+             alert("Sorry that didn't work, your browser does not support HTML5");  
          }  
      }  
      else {  
-         alert("Please upload a valid Excel file!");  
+         alert("Please submit a valid Excel file");  
      }  
  }  
  function BindTable(jsondata, tableid) {/*Function used to convert the JSON array to Html Table*/  
@@ -93,7 +94,6 @@ function setTable() {
  }  
 </script>
 
-<p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
-
+<p><strong>Tip:</strong> Please submit a spreadsheet to view.</p>
 </body>
 </html>
