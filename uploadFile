@@ -4,7 +4,7 @@
 
 		<meta charset="utf-8">
 
-		<script src="./read-excel-file.min.js"></script>
+		<script src="./excelReader.min.js"></script>
 
 		<style>
 			body
@@ -54,7 +54,7 @@
 	<body>
 		
 
-			Please upload a .xcl based spreadsheet file. 
+			Please upload a .xcl based spreadsheet file. Only the first worksheet of the file will be displayed.
 		
 
 		<input type="file" id="input" />
