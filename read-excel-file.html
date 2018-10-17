@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>read-excel-file</title>
+		<title>Upload a file to display</title>
 
 		<meta charset="utf-8">
 
@@ -10,7 +10,7 @@
 			body
 			{
 				margin : 20px;
-				font-family : Arial, Helvetica;
+				font-family : Times New Roman, Helvetica;
 			}
 
 			#input
@@ -31,7 +31,7 @@
 
 			#result-table table td
 			{
-				border : 1px solid black;
+				border : 2px solid black;
 				padding : 0.5em;
 
 				text-overflow : ellipsis;
@@ -57,10 +57,6 @@
 		</a>
 
 		<input type="file" id="input" />
-
-		<div style="font-size: 12px">
-			* Parsing to JSON with a strict schema is supported. <a target="_blank" href="https://github.com/nikohernandiz/read-excel-file#json" style="color: #0093C4; text-decoration: none">Read more</a>.
-		</div>
 
 		<div id="result-table"></div>
 
